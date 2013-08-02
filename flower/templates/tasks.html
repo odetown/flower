@@ -111,7 +111,7 @@
         {% end %}
       </td>
       <td>{{ humanize(task.args) }}</td>
-      <td>{{ humanize(task.kwargs) }}</td>
+      <td>{{ task.kwargs }}</td>
       <td>{{ task.result }}</td>
     </tr>
     {% end %}
